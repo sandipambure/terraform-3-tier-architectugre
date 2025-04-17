@@ -171,7 +171,7 @@ resource "aws_instance" "appserver1" {
   vpc_security_group_ids = [aws_security_group.appserver-sg.id]
   subnet_id              = aws_subnet.application-subnet-1.id
   tags = {
-    Name = "app Server-1"
+    Name = "APP Server-1"
   }
 }
 
